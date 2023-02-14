@@ -30,19 +30,19 @@ Options:
 ```bash
 # 4x4x4 cube with plotting
 $ poetry run tictactoe/tictactoe.py --size 4 --plot
-Player 1, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
+Player 1, pick your next move in the range (0,0,0) to (3,3,3) or type 'exit' to quit the game
 >>> (0,0,0)
-Player 2, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
+Player 2, pick your next move in the range (0,0,0) to (3,3,3) or type 'exit' to quit the game
 >>> (2,0,1)
-Player 1, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
+Player 1, pick your next move in the range (0,0,0) to (3,3,3) or type 'exit' to quit the game
 >>> (1,1,1)
-Player 2, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
+Player 2, pick your next move in the range (0,0,0) to (3,3,3) or type 'exit' to quit the game
 >>> (1,2,2)
-Player 1, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
+Player 1, pick your next move in the range (0,0,0) to (3,3,3) or type 'exit' to quit the game
 >>> (2,2,2)
-Player 2, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
+Player 2, pick your next move in the range (0,0,0) to (3,3,3) or type 'exit' to quit the game
 >>> (2,0,0)
-Player 1, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
+Player 1, pick your next move in the range (0,0,0) to (3,3,3) or type 'exit' to quit the game
 >>> (3,3,3)
 Player 1 has won! Congrats!
 ```

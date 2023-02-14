@@ -106,8 +106,8 @@ def game_loop(size: int, plot: bool) -> None:
         else:
             current_player = 1
         choice = input(
-            f"Player {current_player}, pick your next move in the range (0,0,0) to {board.shape} or type 'exit' to "
-            f"quit the game\n"
+            f"Player {current_player}, pick your next move in the range (0,0,0) to ({size-1},{size-1},{size-1}) or type "
+            f"'exit' to quit the game\n"
             f">>> "
         )
         if choice == "exit":
