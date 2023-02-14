@@ -13,7 +13,7 @@ poetry install
 ## Run
 
 ```bash
-python tictactoe/tictactoe.py --help
+poetry run tictactoe/tictactoe.py --help
 ```
 
 ```bash
@@ -29,7 +29,7 @@ Options:
 
 ```bash
 # 4x4x4 cube with plotting
-$ python tictactoe/tictactoe.py --size 4 --plot
+$ poetry run tictactoe/tictactoe.py --size 4 --plot
 Player 1, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
 >>> (0,0,0)
 Player 2, pick your next move in the range (0,0,0) to (4, 4, 4) or type 'exit' to quit the game
