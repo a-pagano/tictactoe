@@ -22,7 +22,7 @@ def play_move(
 ) -> Optional[np.ndarray]:
     if board[x, y, z] > 0:
         print(
-            f"The square {x=},{y=},{z=} is already taken, please choose another one. Here's the board"
+            f"The square {x=},{y=},{z=} is already taken, please choose another one"
         )
         return None
     else:
@@ -100,8 +100,7 @@ def plot_board(board: np.ndarray) -> None:
 def game_loop(size: int, plot: bool) -> None:
     board = create_3d_grid(size)
     move_counter = 1
-    choice = None
-    while choice != "exit":
+    while True:
         if move_counter % 2 == 0:
             current_player = 2
         else:
@@ -111,6 +110,8 @@ def game_loop(size: int, plot: bool) -> None:
             f"quit the game\n"
             f">>> "
         )
+        if choice == "exit":
+            exit(0)
         updated_board = play_move(board, current_player, *make_tuple(choice))
         if updated_board is None:
             continue
